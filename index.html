@@ -78,21 +78,43 @@
 
 
 
-    <!-- INICIO PRIMEIRA SEÇÃO -->
+    <!-- INICIO PRIMEIRA SEÇÃO-->
     <section id="home" class="d-flex">
       <!-- INICIO CONTAINER -->
       <div class="container align-self-center">
         <!-- INICIO LINHA -->
-        <div class="row">
-          <!-- INICIO CAPA -->
-          <div class="col-md-12 capa">
-            <h1>Música para todos</h1>
-            <a href="" class="btn btn-lg btn-custom btn-roxo">Aproveite o Spotify Free</a>
-            <a href="" class="btn btn-lg btn-custom btn-branco">Obter o Spotify Premium</a>
+        <div id="carousel-spotify" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row d-block w-100 capa">
+                <div class="col-md-12">
+                  <!-- INICIO CAPA -->          
+                  <h1>Música para todos</h1>
+                  <a href="" class="btn btn-md btn-custom btn-roxo">Aproveite o Spotify Free</a>
+                  <a href="" class="btn btn-md btn-custom btn-branco">Obter o Spotify Premium</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row d-block w-100">
+                <div class="col-md-12 capa">
+                    <h1>As melhores rádios</h1>
+                    <a href="" class="btn btn-md btn-custom btn-branco">OUÇA AGORA</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <a href="#carousel-spotify" class="carousel-control-prev" role="button" data-slide="prev">
+            <i class="fa-solid fa-angle-left fa-2x"></i>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a href="#carousel-spotify" role="button" class="carousel-control-next" data-slide="next">
+            <i class="fa-solid fa-angle-right fa-2x"></i>
+            <span class="sr-only">Next</span>
+          </a>
           </div>
-          <!-- FINAL CAPA -->
-        </div>
-        <!-- FINAL LINHA -->
+        </div> 
       </div>
       <!-- FINAL CONTAINER -->
     </section>
